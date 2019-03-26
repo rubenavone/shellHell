@@ -1,8 +1,7 @@
-#! bin/sh
-
 sauvegarde_rm=~/.rm_saved/
 
-function rm {
+function rm 
+{
     local opt_force=0
     local opt_interactive=0
     local opt_recursive=0
@@ -13,9 +12,7 @@ function rm {
     local opt
 
     OPTERR=0
-
 #Analyse des arguments de la ligne de commande
-
 While getOPTS ":dfirRvels-:" opt ; do
     case $opt in
 	d ) ;; #ignorée
