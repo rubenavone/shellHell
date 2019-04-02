@@ -12,13 +12,9 @@ Toutes personnes souhaitant participer à ce petit projet est bienvenu.e
 Type|URL
 --|--
 Tuto | Exemple
-|
-|
-|
-|
+
 CheatSheet|Exemple
-|
-|
+
 
 # Liens vers les diverses commande
 
