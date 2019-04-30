@@ -3,9 +3,12 @@
 # Petite automatisation pour créer rapidement l'arborescence d'un projet
 # Dans le cas ou je ne me sert pas d'un boilerPlate 
 
+echo "Bienvenu.e dans ce super créateur de site , merci d'entrer le nom de votre site";
+read title
 
-mkdir new-project;
-cd new-project;
+
+mkdir $title;
+cd $title;
 > index.html;
 mkdir css
 cd css;
